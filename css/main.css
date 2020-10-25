@@ -1,0 +1,121 @@
+/*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,300italic,400italic,300,100italic,100);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+  color: white;
+}
+
+ul, li, a, img {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.mast-head {
+  height: 76px;
+  width: 100vw;
+  background: black;
+}
+
+header {
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+}
+
+header a {
+  color: white;
+}
+
+nav {
+  display: flex;
+  padding: 15px 25px;
+  height: auto;
+  width: 100%;
+  justify-content: space-around;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  height: 44px;
+  width: 168px;
+  color: rgba(0,0,0,.8)
+}
+
+.nav_item {
+  font-size: 1.1rem;
+  margin: 10px;
+}
+
+.nav_item a {
+}
+
+.nav_link {
+  order: 1;
+  margin-right: auto;
+}
+
+.nav_func {
+  order: 2;
+  float: right;
+}
+
+.nav_func li {
+  display: inline-block;
+}
+
+.nav_action {
+  order: 3;
+  float: right;
+  font-size: 1rem;
+}
+
+.nav_action li {
+  display: inline-block;
+}
+
+.nav_action a {
+  padding: 8px 20px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.nav_menu {
+  order: 4;
+  float: right;
+}
+
+.nav_menu li {
+  display: inherit;
+}
+
+.submenu {
+
+}
+
+footer {
+  background-color: #2f2f2f;
+  max-height: 10%;
+  width: 100vw;
+  bottom: 0;
+  color: white;
+  z-index: -1;
+}
